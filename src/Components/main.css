@@ -1,0 +1,19 @@
+img{
+    height: 350px;
+    width: 350px;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.shop, .shop1{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 2rem;
+    width: 15rem;
+    text-align: center;
+    margin: 5rem auto;
+    cursor: pointer;
+}
