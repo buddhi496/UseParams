@@ -4,16 +4,16 @@ import { useParams } from 'react-router-dom';
 import './main.css';
 
 function ShopProduct() {
-  const { shopname } = useParams();
-  const hamroPasal = shopname;
-  const filteredProducts = Product.filter((Product) => Product.shopName === shopname);
+  const { shopName } = useParams();
+  const hamroPasal = shopName;
+  const filteredProducts = Product.filter((Product) => Product.shopName === shopName);
   console.log(filteredProducts);
   console.log(hamroPasal);
 
   return (
     <>
       <div>
-        <h1>Product List for {shopname}</h1>
+        <h1>Product List for {shopName}</h1>
         <ul>
           {filteredProducts.map((product) => (
             <li key={product.id}>
