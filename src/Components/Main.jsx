@@ -26,9 +26,10 @@ function Main() {
               </div>
             </Link>
           ))}
-        </div>
-
-          
+        </div> 
+        {/* [...new Set(...)] converts this array into a Set,
+         which automatically removes duplicates because sets can 
+         only contain unique values. */}
 
         <h1>Product List</h1>
         <ul>
