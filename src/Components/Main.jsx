@@ -6,6 +6,7 @@ import './main.css';
 function Main() {
 
   const [shop, selectedSoap] = useState("");
+  const [shopname, setShopSoap] = useState("Soap Emporium");
   const newShopProduct = shop
   ? Product.filter((product) => product.shopName === shop)
   : Product;
@@ -17,7 +18,7 @@ function Main() {
           Soap Emporium
         </div>
 
-        <Link to={`/shopproduct/${shop}`}><div className="shop1">
+        <Link to={`/shopproduct/${shopname}`}><div className="shop1">
           Soap Emporium
         </div></Link>
 
