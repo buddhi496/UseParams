@@ -164,6 +164,18 @@ const Product = [
       sale: true,
       rating: 4.9,
     },
+
+    {
+      id: 15,
+      image: 'product.jpg',
+      name: 'Soap Candy Smeled',
+      detail: 'A relaxing lavender-scented soap bar for a soothing bath experience.',
+      currentPrice: 4.99,
+      prevPrice: 6.99,
+      shopName: 'Soap Emporium',
+      sale: true,
+      rating: 4.7,
+    },
   ];
   
   export default Product;
